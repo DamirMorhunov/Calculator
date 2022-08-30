@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="button_minus_green.png" />
+    <None Remove="Calculater.png" />
+    <None Remove="close.png" />
+    <None Remove="expand.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="button_minus_green.png" />
+    <Resource Include="Calculater.png" />
+    <Resource Include="close.png" />
+    <Resource Include="expand.png" />
+  </ItemGroup>
+
+</Project>
